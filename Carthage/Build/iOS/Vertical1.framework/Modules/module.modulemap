@@ -1,0 +1,10 @@
+framework module Vertical1 {
+  umbrella header "Vertical1.h"
+
+  export *
+  module * { export * }
+}
+
+module Vertical1.Swift {
+    header "Vertical1-Swift.h"
+}
